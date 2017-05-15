@@ -1,0 +1,23 @@
+{
+  "name": "raml-typeexpressions-parser",
+  "version": "0.0.9",
+  "private": false,
+  "scripts": {
+    "compile": "rimraf -rf dist/ && ./node_modules/typescript/bin/tsc"
+  },
+  "main": "./dist/typeExpressionUtil.js",
+  "typings": "./dist/typeExpressionUtil.d.ts",
+  "devDependencies": {
+
+    "typescript": "^2.0.0",
+    "dev-env-installer": "0.0.5",
+    "rimraf": "*"
+
+  },
+  "directories": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/node": "^6.0.55"
+  }
+}
