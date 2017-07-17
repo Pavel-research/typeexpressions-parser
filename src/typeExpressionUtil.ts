@@ -1,5 +1,7 @@
 import te=require("./typeExpressions");
-
+/**
+ * AST Nodes
+ */
 export interface BaseNode{
     type:string
 }

@@ -1,3 +1,7 @@
+/**
+ * parser
+ * @type {{SyntaxError: ((message:any, expected:any, found:any, location:any)=>any); parse: ((input:any)=>any)}}
+ */
 var parser = (function() {
     "use strict";
 

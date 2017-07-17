@@ -6,7 +6,11 @@ export type Union = typeExpressionDefs.Union;
 export type Literal = typeExpressionDefs.Literal;
 export type Parens = typeExpressionDefs.Parens;
 
-
+/**
+ * visit expressions
+ * @param node
+ * @param action
+ */
 export function visit(node:BaseNode,action:(n:BaseNode)=>void){
     action(node);
     if(node.type=="union"){

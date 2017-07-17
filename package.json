@@ -1,6 +1,6 @@
 {
   "name": "raml-typeexpressions-parser",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "scripts": {
     "compile": "rimraf -rf dist/ && ./node_modules/typescript/bin/tsc"
